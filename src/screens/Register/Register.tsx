@@ -81,7 +81,7 @@ const Register: React.FC<RegisterProps> = () => {
                   disabled={isSubmitting}
                   className={styles.button}
                 >
-                  Entrar
+                  Registrar
                 </button>
               </Form>
             )}
@@ -91,8 +91,8 @@ const Register: React.FC<RegisterProps> = () => {
           <p className={styles.registerContainer__bottom__text}>
             Ya tenes cuenta?
           </p>
-          <a href="#" className={styles.registerContainer__bottom__link}>
-            Accede
+          <a href="/login" className={styles.registerContainer__bottom__link}>
+            Ingresar
           </a>
         </div>
       </div>

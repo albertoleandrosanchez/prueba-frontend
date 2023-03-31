@@ -38,6 +38,11 @@
   font-size: 0.8rem;
   margin-top: 1em;
 }
+
+.loginContainer__bottom__text {
+  color: var(--gray-text);
+}
+
 .loginContainer__bottom__link {
   text-decoration: none;
   color: #ae00ff;

@@ -62,7 +62,7 @@ const Login: React.FC<LoginProps> = () => {
           <p className={styles.loginContainer__bottom__text}>
             Todavia no tenes cuenta?
           </p>
-          <a href="#" className={styles.loginContainer__bottom__link}>
+          <a href="/register" className={styles.loginContainer__bottom__link}>
             Registrate
           </a>
         </div>

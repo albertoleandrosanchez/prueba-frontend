@@ -39,6 +39,11 @@
   font-size: 0.8rem;
   margin-top: 1em;
 }
+
+.registerContainer__bottom__text {
+  color: var(--gray-text);
+}
+
 .registerContainer__bottom__link {
   text-decoration: none;
   color: var(--primary-color);
